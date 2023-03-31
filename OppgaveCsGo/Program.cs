@@ -1,8 +1,12 @@
-﻿namespace OppgaveCsGo;
+﻿using System;
+using System.Numerics;
+
+namespace OppgaveCsGo;
+
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
-    }
+        Game.Run();
+    } 
 }
